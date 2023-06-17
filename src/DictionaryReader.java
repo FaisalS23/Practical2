@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class DictionaryReader {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\FAiZ\\eclipse-workspace\\FInalPractical2\\src\\Files\\file.txt"; // Need A Actual File Path since none was given
+        String filePath = ".\\src\\Files\\file.txt"; // Need A Actual File Path since none was given
 
         // Check if the file exists
         if (doesFileExist(filePath)) {
